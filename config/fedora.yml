@@ -1,0 +1,5 @@
+test:
+  user: fedoraAdmin
+  password: fedoraAdmin
+  url: http://localhost:8080/fedora/rest
+  base_path: /blancoj-test

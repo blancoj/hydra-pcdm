@@ -1,0 +1,5 @@
+# This is a sample config file that points to a solr server for each environment
+development:
+  url: http://localhost:8080/tomcat/quod-dev/solr-hydra/blancoj-dev
+test:
+  url: http://localhost:8080/tomcat/quod-dev/solr-hydra/blancoj-dev

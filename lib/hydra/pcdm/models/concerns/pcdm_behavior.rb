@@ -30,7 +30,7 @@ module Hydra::PCDM
       aggregated_by.select(&:pcdm_collection?)
     end
 
-    def ancestordog?(record)
+    def ancestortest?(record)
       # Checks if self is the potential_ancestor OR self is included in the members of potential_ancestor
       #self == potential_ancestor || Hydra::PCDM::DeepMemberIterator.new(potential_ancestor).include?(self)
 

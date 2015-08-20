@@ -14,7 +14,7 @@ module Hydra::PCDM::Validators
     def validate!
     binding.pry
       #return unless ancestor?(record)
-      return unless owner.ancestordog?(record)
+      return unless owner.ancestortest?(record)
       fail ArgumentError, "#{record.class} with ID: #{record.id} failed to pass AncestorChecker validation"
 
     end
